@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.efrobot.sdk.control_sdk_sample.ui.fragment.PurifierStatusFragment">
+
+    <ImageView
+        android:id="@+id/frag_imgv_title"
+        android:src="@drawable/jhz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/rl_register"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/frag_imgv_title">
+        <TextView
+            android:id="@+id/tv_robotState"
+            android:text="小胖净化器有5种状态
+ /** 打开 */OPEN ,     /** 关闭 */CLOSE,
+ /** 不存在 */INEXISTENCE,     /** 未知 */    UNKNOWN,
+   /** 过滤纱布不存在 */FILTER_GAUZE_INEXISTENCE,
+"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="120dp"/>
+        <TextView
+            android:id="@+id/tv_PurifierState"
+            android:text="小胖的净化器状态"
+            android:layout_width="match_parent"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:layout_height="120dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <Button
+                android:id="@+id/bt_registerPurifierStatusChangedListener"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="注册净化器变化监听"/>
+            <Button
+                android:id="@+id/bt_unRegisterPurifierStatusChangedListener"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="取消注册净化器变化监听"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

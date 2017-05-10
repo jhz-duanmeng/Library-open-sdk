@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Jhz-sdk-Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="SalverStatus">托盘状态</string>
+    <string name="MaskStatus">面罩状态</string>
+    <string name="HeadTouchStatus">头部触摸状态</string>
+    <string name="BatteryLevel">电池</string>
+    <string name="PurifierStatus">净化器</string>
+    <string name="ProjectStatus">投影仪</string>
+</resources>

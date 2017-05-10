@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:id="@+id/custom_title_bar"
+              android:padding="5dp"
+              android:layout_width="match_parent"
+              android:layout_height="80dp"
+              android:background="#fff">
+    <RelativeLayout
+        android:id="@+id/custom_title_left"
+        android:clickable="true"
+        android:layout_width="@dimen/title_bar_side_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/title_bar_side_margin">
+
+        <TextView
+            android:layout_width="@dimen/title_bar_side_width"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|right"
+            android:text="返回"
+            android:paddingRight="10dp"
+            android:textColor="@color/title_bar_text"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/common_title_bar_back_white_normal"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/custom_title_center"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/title_bar_side_margin"
+        android:layout_marginRight="75dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text="净化器"
+        android:textColor="@color/title_bar_text"
+        android:textSize="@dimen/title_bar_text_size"
+        android:textStyle="bold"/>
+</LinearLayout>

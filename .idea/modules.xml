@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Control_sdk_sample/Control_SDK_Sample.iml" filepath="$PROJECT_DIR$/Control_sdk_sample/Control_SDK_Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library-open-sdk.iml" filepath="$PROJECT_DIR$/Library-open-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pay_sdk_sample/Pay_sdk_sample.iml" filepath="$PROJECT_DIR$/Pay_sdk_sample/Pay_sdk_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-android-efrobot-pay/client-android-efrobot-pay.iml" filepath="$PROJECT_DIR$/client-android-efrobot-pay/client-android-efrobot-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-android-library-open-sdk/client-android-library-open-sdk.iml" filepath="$PROJECT_DIR$/client-android-library-open-sdk/client-android-library-open-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/face_sdk_sample/face_sdk_sample.iml" filepath="$PROJECT_DIR$/face_sdk_sample/face_sdk_sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robot-open-sdk/robot-open-sdk.iml" filepath="$PROJECT_DIR$/robot-open-sdk/robot-open-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speech-sdk-sample/speech-sdk-sample.iml" filepath="$PROJECT_DIR$/speech-sdk-sample/speech-sdk-sample.iml" />
+    </modules>
+  </component>
+</project>

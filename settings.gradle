@@ -1,0 +1,8 @@
+
+include   ':speech-sdk-sample'
+include   ':Control_SDK_Sample'
+include   ':client-android-library-open-sdk'
+include   ':face_sdk_sample'
+include   ':robot-open-sdk'
+include   ':Pay_sdk_sample'
+include   ':client-android-efrobot-pay'

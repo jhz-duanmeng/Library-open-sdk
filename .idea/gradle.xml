@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="F:\studio2\android-studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Control_sdk_sample" />
+            <option value="$PROJECT_DIR$/Pay_sdk_sample" />
+            <option value="$PROJECT_DIR$/client-android-efrobot-pay" />
+            <option value="$PROJECT_DIR$/client-android-library-open-sdk" />
+            <option value="$PROJECT_DIR$/face_sdk_sample" />
+            <option value="$PROJECT_DIR$/robot-open-sdk" />
+            <option value="$PROJECT_DIR$/speech-sdk-sample" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Control_sdk_sample" />
+            <option value="$PROJECT_DIR$/Pay_sdk_sample" />
+            <option value="$PROJECT_DIR$/client-android-efrobot-pay" />
+            <option value="$PROJECT_DIR$/client-android-library-open-sdk" />
+            <option value="$PROJECT_DIR$/face_sdk_sample" />
+            <option value="$PROJECT_DIR$/robot-open-sdk" />
+            <option value="$PROJECT_DIR$/speech-sdk-sample" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
